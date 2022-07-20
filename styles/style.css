@@ -71,3 +71,66 @@
 /* --------------------------------------------------
                Aside-Nav and Body Section 
                --------------------------------------*/
+
+.nav-go-live {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.side-nav,
+.go-live {
+    float: left;
+}
+
+aside {
+    background-color: lightgreen;
+    width: 200px;
+    height: 500px;
+}
+
+.go-live {
+    background-color: rgb(32, 146, 32);
+    width: calc(100% -200px);
+    height: 500px;
+}
+
+
+
+/*----------------------- Footer ---------------------*/
+footer {
+    clear: both;
+    height: 200px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.footer-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.goal {
+    margin-top: 20px;
+    color: darkgreen;
+}
+
+hr {
+    border: 2px solid darkslategrey;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media {}
+
+.contact-misc {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+}

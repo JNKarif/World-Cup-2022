@@ -7,6 +7,7 @@ nav li {
     background-color: rgb(203, 144, 238);
     padding: 15px 15px;
 
+
 }
 
 nav li a {
@@ -14,21 +15,22 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 13px;
 
 }
 
 #match {
     background-color: rgb(79, 255, 79);
-    border: 2px solid black;
+    border: 1px solid black;
+
 }
 
 .side-nav {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     row-gap: 30px;
     margin-top: 30px;
-}
 
-;
+}

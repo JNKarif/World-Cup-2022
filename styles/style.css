@@ -48,7 +48,7 @@ body {
 .heading-style {
 
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .para-style {
@@ -144,6 +144,37 @@ aside {
 
 } */
 
+
+
+/* -------------2nd website/Watch-match-live---------------- */
+.match-banner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.game-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watch-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-left: 50px;
+}
+
+/* .vs-style {} */
+
+
+
+
+
+
 /*----------------------- Footer ---------------------*/
 footer {
     clear: both;
@@ -174,6 +205,27 @@ hr {
 .social-media {
     display: flex;
     gap: 20px;
+}
+
+.fa-youtube {
+    font-size: 35px;
+    color: red;
+}
+
+.fa-twitter {
+    font-size: 35px;
+    color: rgb(33, 143, 187);
+}
+
+.fa-futbol {
+    font-size: 35px;
+    color: darkgreen;
+}
+
+.fa-instagram {
+    font-size: 35px;
+    color: orangered;
+
 }
 
 .contact-misc {

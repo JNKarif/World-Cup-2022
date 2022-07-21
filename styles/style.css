@@ -46,6 +46,14 @@ body {
     margin-top: 100px;
 }
 
+/*----------------------------------------------- 
+----------Marcello is running to shoot-----------
+------------------------------------------------ */
+.banner-image img:hover {
+    transform: translate(-300px);
+    transition: transform 0.7s ease-in-out 0.5s;
+}
+
 .heading-style {
 
     font-size: 60px;
@@ -317,7 +325,7 @@ hr {
         height: 70vh;
         width: 100vw;
         background-color: lightgreen;
-        margin-top: 1200px;
+        margin-top: 1300px;
 
 
     }
@@ -388,7 +396,7 @@ hr {
         border-radius: 10px;
         padding: 31px;
         display: flex;
-
+        margin-top: 400px;
         justify-content: center;
         color: black;
         align-items: center;

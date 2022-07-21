@@ -85,10 +85,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
-
 }
 
 .nav-go-live {
@@ -144,8 +140,9 @@ aside {
     height: 100px;
 
 } */
-
-
+.Flex-button {
+    display: none;
+}
 
 /* -------------2nd website/Watch-match-live---------------- */
 .match-banner {
@@ -340,6 +337,9 @@ hr {
 
 }
 
+.Flex-button {
+    display: none;
+}
 
 
 
@@ -379,4 +379,27 @@ hr {
     .contact-misc {
         gap: 30px;
     }
+
+    .Only-tablet {
+        height: 50px;
+        width: 150px;
+        background-color: darkgreen;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 31px;
+        display: flex;
+
+        justify-content: center;
+        color: black;
+        align-items: center;
+
+
+    }
+
+    .Flex-button {
+        display: flex;
+        justify-content: center;
+    }
+
+
 }

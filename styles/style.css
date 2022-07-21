@@ -17,7 +17,6 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
-
     justify-content: center;
     align-items: center;
 
@@ -40,9 +39,11 @@ body {
 }
 
 .banner-image img {
-    height: 580px;
-    width: 613px;
+    height: 480px;
+    width: 513px;
     padding-right: 50px;
+
+    margin-top: 100px;
 }
 
 .heading-style {
@@ -177,7 +178,7 @@ aside {
 
 /*----------------------- Footer ---------------------*/
 footer {
-    clear: both;
+    margin-top: 250px;
     height: 200px;
     width: 100%;
     background-color: lightgreen;
@@ -233,4 +234,149 @@ hr {
     flex-direction: row;
     gap: 50px;
     margin-top: 20px;
+}
+
+
+
+/* Responsive section 
+---------------------*/
+
+
+/*----------------- For Mobile phone------------------ */
+@media only screen and (max-width:577px) {
+    .top-banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 85vw;
+
+    }
+
+    /* .banner-text {
+        height: 40%;
+        width: 100%;
+    } */
+
+    /* .banner-image {
+        height: 60%;
+        width: 100%;
+    } */
+
+    .heading-style {
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    .banner-text {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 50px;
+        margin-bottom: -15%;
+
+    }
+
+    .hosting-country {
+        font-size: 30px;
+        font-weight: 250;
+    }
+
+    .para-style {
+        font-size: 14px;
+        color: rgb(34, 94, 34);
+        font-weight: bold;
+    }
+
+    .banner-image img {
+        height: 280px;
+        width: 320px;
+        margin-bottom: -17%;
+        margin-left: 70px;
+        /* overflow-x: hidden; */
+    }
+
+
+    .nav-go-live {
+        height: 90vh;
+        width: 90vw;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 5px;
+
+    }
+
+    .go-live {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        /* align-items: center; */
+    }
+
+    .footer-style {
+        height: 70vh;
+        width: 100vw;
+        background-color: lightgreen;
+        margin-top: 1200px;
+
+
+    }
+
+    hr {
+        width: 60%;
+    }
+
+    .responsive-footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-misc {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+/* ------------------For tablet devices --------------*/
+@media only screen and (min-width:578px) and (max-width:992px) {
+    .banner-image img {
+        margin-top: 157px;
+    }
+
+    .top-banner {
+        width: 76%;
+    }
+
+    .nav-go-live {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        /* text-align: justify; */
+
+    }
+
+    .go-live {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    aside {
+        background-color: white;
+    }
+
+    hr {
+        width: 60%;
+    }
+
+    .contact-misc {
+        gap: 30px;
+    }
 }
